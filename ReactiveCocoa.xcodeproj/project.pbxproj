@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C6C60CE1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6C60CC1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.h */; };
+		4C6C60CF1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C60CD1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.m */; };
 		7A7065811A3F88B8001E8354 /* RACKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */; };
 		7A7065821A3F88B8001E8354 /* RACKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */; };
 		7A7065841A3F8967001E8354 /* RACKVOProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */; };
@@ -429,6 +431,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C6C60CC1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+RACSignalSupport.h"; sourceTree = "<group>"; };
+		4C6C60CD1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+RACSignalSupport.m"; sourceTree = "<group>"; };
 		7A70657D1A3F88B8001E8354 /* RACKVOProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACKVOProxy.h; sourceTree = "<group>"; };
 		7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxy.m; sourceTree = "<group>"; };
 		7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxySpec.m; sourceTree = "<group>"; };
@@ -756,6 +760,8 @@
 		D037642919EDA3B600A782A9 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				4C6C60CC1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.h */,
+				4C6C60CD1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.m */,
 				D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */,
 				D037642B19EDA41200A782A9 /* NSArray+RACSequenceAdditions.m */,
 				D037642C19EDA41200A782A9 /* NSControl+RACCommandSupport.h */,
@@ -1263,6 +1269,7 @@
 				D037664919EDA41200A782A9 /* UISlider+RACSignalSupport.h in Headers */,
 				D03765BF19EDA41200A782A9 /* RACScheduler.h in Headers */,
 				D03764E919EDA41200A782A9 /* NSArray+RACSequenceAdditions.h in Headers */,
+				4C6C60CE1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.h in Headers */,
 				D037654919EDA41200A782A9 /* NSUserDefaults+RACSupport.h in Headers */,
 				D037663919EDA41200A782A9 /* UIGestureRecognizer+RACSignalSupport.h in Headers */,
 				D037653119EDA41200A782A9 /* NSSet+RACSequenceAdditions.h in Headers */,
@@ -1654,6 +1661,7 @@
 				D037661319EDA41200A782A9 /* RACUnit.m in Sources */,
 				D037662319EDA41200A782A9 /* UIBarButtonItem+RACCommandSupport.m in Sources */,
 				D03765A119EDA41200A782A9 /* RACKVOTrampoline.m in Sources */,
+				4C6C60CF1AC82CE000FD2340 /* UISearchBar+RACSignalSupport.m in Sources */,
 				D037665B19EDA41200A782A9 /* UITableViewHeaderFooterView+RACSignalSupport.m in Sources */,
 				D037650B19EDA41200A782A9 /* NSInvocation+RACTypeParsing.m in Sources */,
 				D037660719EDA41200A782A9 /* RACTuple.m in Sources */,
